@@ -4,7 +4,8 @@
   "description": "A copy of Fakin' It from Jackbox",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node build/server",
+    "build": "npx tsc"
   },
   "author": "DavAll",
   "license": "ISC",
@@ -14,5 +15,8 @@
     "fastify-socket.io": "4.0.0",
     "socket.io": "4.5.4"
   },
-  "type": "module"
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  }
 }

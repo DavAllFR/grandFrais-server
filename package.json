@@ -1,0 +1,18 @@
+{
+  "name": "grand-frais",
+  "version": "1.0.0",
+  "description": "A copy of Fakin' It from Jackbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DavAll",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "fastify": "4.12.0",
+    "fastify-socket.io": "4.0.0",
+    "socket.io": "4.5.4"
+  },
+  "type": "module"
+}
